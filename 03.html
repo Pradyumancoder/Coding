@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> declaring let variable</h1>
+    <p>here out side of the curlybracket variable show</p>
+   <p id="demo"></p>
+    <script>
+        let x=10;
+        //here x equal to 10
+        {
+        let x =5;
+            //here x equal to 5
+        }
+document.getElementById("demo").innerHTML =x;
+    </script>
+    <h1>declaring var variable</h1>
+    <p>here inside of the curlybracket variable show</p>
+    <p id="demo2"></p>
+        <script>
+            var y=10;
+            //here y equal to 10
+            {
+                var y=5;
+                //here y equal to 5
+            }
+            // in web page y equal to 5 show
+document.getElementById("demo2").innerHTML=y;
+        </script>
+
+</body>
+</html>
